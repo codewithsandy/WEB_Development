@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Function in Java Script</title>
+</head>
+
+<body>
+    <div class="container">
+        This is Arrow Function Example.
+    </div>
+    <script>
+
+        // ______Normal Function_____
+        // function greet(){
+        //     console.log("Good Morning");
+        // };
+        // greet();
+
+        // ______Normal Arrow Function_____
+        greet = () => {
+            console.log("Good Morning");
+        }
+        // greet = () => console.log("Good Morning");         //____Another writing method for normal arrow Fun___
+
+        // greet();
+
+        // ________Use arrow fun to reduce Function________
+        // let sum = (a,b) => {
+        //     return a+b
+        // };
+        // console.log(sum(5,7));
+
+        // ______Function Settlement with Arrow Fun______
+        let sum = (a, b) => a + b;
+
+        let half = a => a / 2;
+
+        setTimeout(() => console.log("___We are inside setTimeout___"),3000);
+
+        let obj1={
+            greeting: " Good Morning ",
+            names: ["Ishwari", "Ishu", "Shwari"],
+            speak(){
+                this.names.forEach((student) => {
+                    console.log(this.greeting + " Programmer "  +  student);
+                });
+            }
+        };
+        obj1.speak();
+
+    </script>
+</body>
+
+</html>

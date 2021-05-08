@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Object in JavaScript</title>
+</head>
+<body>
+    <div class="container">
+        <h2>This is math obj experiment</h2>
+    </div>
+    <script>
+        let m = Math;
+        console.log(m);
+        
+        // Printing the constants from math  obj
+        console.log("The value of  Math.E  is ", Math.E);
+        console.log("The value of  Math.PI  is ", Math.PI);
+        console.log("The value of  Math.LN10  is ", Math.LN10);
+        console.log("The value of  Math.LOG2E  is ", Math.LOG2E);
+        console.log("The value of  Math.LN2  is ", Math.LN2);
+
+        // Printing the Functions from math  obj
+        let a = 45.236549;
+        let b = 59;
+        console.log("The value of a & b is ", a, b);
+        console.log("The value of a & b Rounded is ", Math.round(a), Math.round(b));
+
+        console.log("3 raised to the power of 2 is ", Math.pow(3,2));
+        console.log("The square root of 35 is ", Math.sqrt(60));
+
+        // ceil & Floor
+        console.log("5.8 Rounded up to nearest integer is ", Math.ceil(5.8));
+        console.log("5.8 Rounded down to nearest integer is ", Math.floor(5.8));
+
+        // Absolute function
+        console.log("Absolute value of 5.66 is ",Math.abs(5.66));
+        console.log("Absolute value of -5.66 is ",Math.abs(-5.66));
+
+        // Trignometric Function
+        console.log("The value of sin(pi) is ", Math.sin(Math.PI));
+        console.log("The value of sin(pi/2) is ", Math.sin(Math.PI/2));
+
+        // Min & Max Fun
+        console.log("Minimum value of 4, 5, 6 is ", Math.min(4,5,6));
+        console.log("Maxiimum value of 4, 5, 6 is ", Math.max(4,5,6));
+
+        // Generating Random Number
+        let r = Math.random();
+        console.log("The Random Number is ", r);
+        //generate random number between a to b
+        let a1=1;
+        let b1=100;
+        let rab = a1 + (b1-a1)*Math.random();
+        console.log("The Random Number between 1 to 100 is ", rab);
+
+
+    </script>
+</body>
+</html>

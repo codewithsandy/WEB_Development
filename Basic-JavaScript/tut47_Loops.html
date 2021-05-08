@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops in Java Script</title>
+</head>
+<body>
+    <div class="container">
+        This is a Loops experiment
+    </div>
+    <script>
+        console.log("This is javascript loops");
+
+        let i = 0;
+        for(i = 0; i < 3; i++){
+            console.log(i)
+        }
+
+        let friends = ["Peter", "Rose", "Marina", "Ishwari"];
+
+        // Using old for statement
+        // for (let index = 0; index < friends.length; index++) {
+        //     console.log("Hello Dear  "+ friends[index])
+            
+        // }
+
+        // Using Modern JavaScript forEach statement
+        // friends.forEach(function f(element){
+        //     console.log("Hello Dear " + element)
+        // });
+
+        // Using Modern JavaScript for statement
+        // for(element of friends){
+        //     console.log("Hello Dear " + element)
+        // };
+
+        let emp = {
+            name: "Jenny",
+            salary: 2,
+            code: "Inspector"
+        };
+
+        // use this loop for iterate over objects in java script
+        for(key in emp){
+            console.log(`The ${key} of employee is ${emp[key]}`)
+        };
+
+        // While loop in Java Script
+        let i1=0;
+        while(i1<4){
+            console.log(`${i1} is less than 4`);
+            i1++;
+        };
+
+        let j = 25;
+        do{
+        console.log(`${j} is less than 4 but we inside the Do-While loop`);
+        i1++;
+        }while(j<4);
+
+
+    </script>
+</body>
+</html>
