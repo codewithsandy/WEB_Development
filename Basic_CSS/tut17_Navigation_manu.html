@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Manu</title>
+    <style>
+        .navbar{
+            background-color: rgb(26, 126, 6);
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float: left;
+            list-style: none;
+            padding: 3px 3px;
+            margin: 5px 5px;
+            font-size: 25px;
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+        }
+        a:hover{
+            background-color:tomato
+        }
+        .search{
+            float: right;
+            color: wheat;
+            padding: 12px 75px;
+        }
+        .navbar input{
+            border: 2px solid rgb(250, 47, 159);
+            border-radius: 2px;
+            padding: 5px 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="a">Home</a></li>
+                <li><a href="a">About</a></li>
+                <li><a href="a">Services</a></li>
+                <li><a href="a">Contacy us</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search Here">
+                </div>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

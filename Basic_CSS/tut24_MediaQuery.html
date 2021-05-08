@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .box{
+            font-size: 22px;
+            text-align: center;
+            background-color: red;
+            color: whitesmoke;
+            display: none;
+        }
+        @media(max-width:300px){
+            #box1{
+                display: block;
+                color: gold;
+                background-color: cyan;
+            }
+        }
+        @media (min-width:300px) and (max-width:500px){
+            #box2{
+                display: block;
+                background-color: blueviolet;
+            }
+        }
+        @media (min-width:500px) and (max-width:800px){
+            #box3{
+                display: block;
+                color: green;
+                background-color: yellowgreen;
+            }
+        }
+        @media only screen and (min-width:800px){
+            #box4{
+                display: block;
+                background-color: orangered;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">I am a sandy</div>
+    <div class="box" id="box2">I am a good boy</div>
+    <div class="box" id="box3">I am a good programmer</div>
+    <div class="box" id="box4">I am very happy</div>
+   
+</body>
+</html>

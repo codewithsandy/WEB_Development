@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borders and Backgrounds</title>
+    <style>
+        #first
+        {
+            background-color:red;
+            height: 50px;
+            width: 450px;
+
+            border: 5px solid green;
+            /* border-width: 4px;
+            border-color: green;
+            border-style: solid; */
+            border-radius: 15px;
+        }
+        #second
+        {
+            background-color: rgb(80, 233, 88);
+            height: 50px;
+            width: 450px;
+            border-top: 10px solid red;
+            border-bottom: 10px solid yellow;
+            border-left: 10px solid rgb(109, 49, 250);
+            border-right: 10px solid rgb(128, 0, 122);
+            border-bottom-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        #third
+        {
+            height: 332px;
+            width: 500px;
+            background-image:url('cute.jpg') ;
+            border: 2px solid red;
+            background-repeat: no-repeat;
+            background:center;
+        }
+    </style>
+</head>
+<body>
+    <h3>Height, Width, borders and backgrounds</h3>
+    <p id="first">My first paragraph</p>
+    <p id="second">My second paragraph</p>
+    <p id="third">My third paragraph</p>
+</body>
+</html>

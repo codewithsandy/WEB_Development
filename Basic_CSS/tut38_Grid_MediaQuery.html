@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Media Query</title>
+    <style>
+        .container {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-areas:
+                'nav nav nav nav'
+                'section section section aside'
+                'footer footer footer footer';
+        }
+
+        body {
+            background-color: olivedrab;
+        }
+
+        .box {
+            font-size: 22px;
+            text-align: center;
+            background-color: red;
+            color: whitesmoke;
+            display: none;
+        }
+
+        @media(max-width:300px) {
+            body {
+                display: block;
+                color: rgb(68, 20, 241);
+                background-color: cyan;
+            }
+            span{
+            display: block;
+           
+        }
+        }
+
+        @media (min-width:300px) and (max-width:500px) {
+            body {
+                display: block;
+                background-color: blueviolet;
+            }
+            .container {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-areas:
+                'nav nav nav nav'
+                'section section section section'
+                /* 'aside aside aside aside' */
+                'footer footer footer footer';
+             }
+             aside{
+                 display: none;
+             }
+        }
+
+        @media (min-width:500px) and (max-width:800px) {
+            body {
+                display: block;
+                color: green;
+                background-color: yellowgreen;
+            }
+            .container {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-areas:
+                'nav nav nav nav'
+                'section section section section'
+                'aside aside aside aside'
+                'footer footer footer footer';
+            }
+        }
+
+        @media only screen and (min-width:800px) {
+            body {
+                display: block;
+                background-color: orangered;
+            }
+        }
+
+        .bdr {
+            border: 2px solid brown;
+            padding: 10px 23px;
+            background-color: fuchsia;
+        }
+        nav{
+            grid-area: nav;
+        }
+
+        section{
+            grid-area: section;
+        }
+
+        aside{
+            grid-area: aside;
+        }
+        footer{
+            grid-area: footer;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container" id="navbar">
+        <nav class="bdr">
+                <span>Home  </span> 
+                <span>About</span> 
+                <span>Services</span> 
+                <span>Contact</span> 
+            </nav>
+                <section class="bdr">
+                    <h2>Programming</h2>
+                </section>
+                <aside class="bdr">
+                    <h1>More Details</h1>
+                </aside>
+    </div>
+    <footer class="bdr">Footer: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam unde laudantium temporibus
+        vitae quos nulla!</footer>
+</body>
+
+</html>

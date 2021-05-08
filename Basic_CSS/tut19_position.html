@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 2px solid palegreen;
+            background-color: khaki;
+            height: 800px;
+        }
+        /* CSS position:static (default), absolute, relative, fixed, sticky */
+        .box{
+            display: inline-block;
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+        }
+        #box3{
+            /* relative to its normal position */
+            position: fixed;
+            right: 10px;
+            /* top: 35px;
+            left: 25px; */
+        }
+        #box5{
+            position: sticky;
+            top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+        <div class="box" id="box5">5</div>
+
+    </div>
+</body>
+</html>

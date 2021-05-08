@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid </title>
+    <style>
+        .container{
+            display: grid;
+            grid-gap: 1rem;
+            /* grid-template-columns: 200px 200px 200px; */
+            /* grid-template-columns: 1fr 1fr 1fr; */
+            /* justify-content: center; */
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        }
+        .box{
+            border: 2px solid rebeccapurple;
+            background-color: thistle;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">This is my box-1</div>
+        <div class="box">This is my box-2</div>
+        <div class="box">This is my box-3</div>
+        <div class="box">This is my box-4</div>
+        <div class="box">This is my box-5</div>
+        <div class="box">This is my box-6</div>
+        <div class="box">This is my box-7</div>
+        <div class="box">This is my box-8</div>
+        <div class="box">This is my box-9</div>
+        <div class="box">This is my box-10</div>
+        <div class="box">This is my box-11</div>
+        <div class="box">This is my box-12</div>
+        <div class="box">This is my box-13</div>
+        <div class="box">This is my box-14</div>
+        <div class="box">This is my box-15</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS grid rows</title>
+    <style>
+        .grid{
+            display: grid;
+            grid-template-rows: 1fr 1fr 4fr;
+            grid-auto-rows: 2fr;
+            grid-template-columns: 1fr 4fr;
+            grid-gap:1rem;
+        }
+        .box{
+            background-color: lightpink;
+            border:2px solid darkgoldenrod;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="box">This is Box-1</div>
+        <div class="box">This is Box-2</div>
+        <div class="box">This is Box-3</div>
+        <div class="box">This is Box-4</div>
+        <div class="box">This is Box-5</div>
+        <div class="box">This is Box-6</div>
+        <div class="box">This is Box-7</div>
+        <div class="box">This is Box-8</div>
+        <div class="box">This is Box-9</div>
+        <div class="box">This is Box-10</div>
+    </div>
+</body>
+</html>

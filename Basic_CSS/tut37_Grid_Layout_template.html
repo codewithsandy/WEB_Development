@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Layout Template</title>
+    <style>
+        .container {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-areas:
+                'Navbar Navbar Navbar Navbar'
+                'Section Section Section Class'
+                'footer footer footer footer';
+        }
+
+        .item {
+            background-color: limegreen;
+            border: 2px solid forestgreen;
+            padding: 10px 10px;
+        }
+
+        #Navbar {
+            grid-area: Navbar;
+        }
+
+        #Section {
+            grid-area: Section;
+        }
+
+        #Class {
+            grid-area: Class;
+        }
+        footer{
+            grid-area: footer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="Navbar" class="item">
+            Home About Contact us
+        </div>
+        <div id="Section" class="item">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat rem, fugit ipsum tempore ipsa vel nam
+            provident maxime repudiandae vero quibusdam velit deserunt id veritatis quos et mollitia molestias ipsam
+            quas fuga qui nesciunt dolor cumque perspiciatis? Consequuntur, ab delectus!
+        </div>
+        <div id="Class" class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem esse quae ipsum
+            pariatur ad nulla dolores quo ducimus nostrum harum?</div>
+        <!-- <div class="item">This is Item-1</div>
+        <div class="item">This is Item-2</div>
+        <div class="item">This is Item-3</div>
+        <div class="item">This is Item-4</div>
+        <div class="item">This is Item-5</div>
+        <div class="item">This is Item-6</div>
+        <div class="item">This is Item-7</div>
+        <div class="item">This is Item-8</div>
+        <div class="item">This is Item-9</div>
+        <div class="item">This is Item-10</div>
+        <div class="item">This is Item-11</div>
+        <div class="item">This is Item-12</div>
+        <div class="item">This is Item-13</div>
+        <div class="item">This is Item-14</div>
+        <div class="item">This is Item-15</div> -->
+    </div>
+    <footer class="item">Footer: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam unde laudantium temporibus vitae quos nulla!</footer>
+</body>
+
+</html>

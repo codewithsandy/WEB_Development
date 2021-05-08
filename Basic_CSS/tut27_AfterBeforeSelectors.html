@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and After Pseudo Selectors</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(181, 190, 199);
+            color: green;
+            
+        }
+        header::before{
+            content: "";
+            background-image: url('jym.jpg');
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.5;
+        }
+        .navigation{
+            font-size: 20px;
+            display: flex;
+        }
+        li{
+            list-style: none;
+            padding: 20px 20px;
+        }
+        section{
+            margin: 10px 23px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid blueviolet;
+        }
+        h3{
+            font-size: 3rem;
+        }
+        p{
+            text-align: center; 
+        }
+        /* section::before{
+            content: "This is content";
+        } */
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item1">Home</li>
+
+                <li class="item2">About</li>
+                <li class="item3">Services</li>
+                <li class="item4">Contact us</li>
+            </ul>
+        </nav>
+    </header>
+        <section>
+            <h3>Welcome to my world</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro nam aliquid ipsam excepturi nemo
+                distinctio qui libero a reiciendis deserunt ut, error, consectetur laborum perspiciatis necessitatibus
+                placeat voluptatibus culpa? Expedita omnis qui tempore provident dolorem optio harum sapiente voluptatem
+                necessitatibus. Asperiores cupiditate esse veritatis deleniti minus similique facere quae ab!</p>
+        </section>
+        <hr>
+</body>
+
+</html>
