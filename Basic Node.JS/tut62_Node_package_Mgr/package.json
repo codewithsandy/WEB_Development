@@ -1,0 +1,22 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "This is one of the world best package created by sandy",
+  "main": "tut62_NPM.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/codewithsandy"
+  },
+  "keywords": [
+    "NPM"
+  ],
+  "author": "Sandy",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {}
+}

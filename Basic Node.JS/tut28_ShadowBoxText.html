@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box And Text Shadow</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .card {
+            padding: 23px 12px;
+            margin: 23px 12px;
+            /* border: 2px solid red; */
+            background-color: orange;
+            /* box-shadow: x-value y-value blur-radius spread radius green; use minus value to upper side effect */
+            box-shadow: 10px 10px 5px 2px green;
+
+            /* used to create shadow in inside  */
+            /* box-shadow: inset 10px 10px green; */
+
+            /* use multiple colors for shadow */
+            box-shadow: 8px 8px green, 15px 15px 5px 2px yellowgreen;
+        }
+        .card h1{
+            text-shadow: 3px 3px 1px gold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h1>SANDY</h1>
+            <h3>Card 1</h3>
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ipsa libero quis ea, officia saepe
+                blanditiis aspernatur ullam, deleniti consequuntur ipsam voluptate pariatur, atque fugiat earum
+                praesentium similique odit distinctio?</p>
+        </div>
+        <div class="card" id="card-2">
+            <h2>Card 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ipsa libero quis ea, officia saepe
+                blanditiis aspernatur ullam, deleniti consequuntur ipsam voluptate pariatur, atque fugiat earum
+                praesentium similique odit distinctio?</p>
+        </div>
+        <div class="card" id="card-3">
+            <h2>Card 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ipsa libero quis ea, officia saepe
+                blanditiis aspernatur ullam, deleniti consequuntur ipsam voluptate pariatur, atque fugiat earum
+                praesentium similique odit distinctio?</p>
+        </div>
+    </div>
+</body>
+
+</html>
