@@ -1,0 +1,39 @@
+//- contact.pug
+doctype html
+html
+  head
+    title World Dance Academy
+    style
+      include ../static/contactstyle.css
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/img/logo.png")
+                | HDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/contact") Contact Us]
+
+    section#introSection
+        div Welcome to World's Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#contactSection
+    <div class="container1">
+            <h2>#####       Get the Membership in just 100$       #####</h2>
+            <form action="/contact" method="POST" id="contact">
+            <input type="text" name="name" id="name" placeholder="Enter Your name">
+            <input type="text" name="age" id="age" placeholder="Enter Your age">
+            <input type="text" name="gender" id="gender" placeholder="select gender">
+            <input type="text" name="email" id="email" placeholder="Enter email"></textarea>
+            <textarea type="text" name="address" id="address" placeholder="enter address"></textarea>
+            <button class="btn">Submit</button>
+            </form>
+    
+    footer#footer
+        | Copyright @ 2021 Sandy | All rights reserved.
+    //- script
+    //-   include ../static/index.js
