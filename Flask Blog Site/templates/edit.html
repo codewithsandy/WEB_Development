@@ -1,0 +1,84 @@
+{% extends "layout.html" %}
+{% block body %}
+
+
+
+        <!-- Page Header-->
+<header class="masthead" style="background-image: url('{{ url_for('static', filename= 'assets/img/home-bg.jpg')}}')"
+        xmlns="http://www.w3.org/1999/html">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-10 mx-auto">
+                        <div class="site-heading">
+                            <h1>{{params['blog_name']}}</h1>
+                            <span class="subheading">Welcome Admin</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+{% with messages = get_flashed_messages() %}
+{% if messages %}
+{% for message in messages %}
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+    {{message}}
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span area-hidden="true">&times;</span></button>
+</div>
+{% endfor %}
+{% endif %}
+{% endwith %}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+<a href="/dashboard" ><button class="btn btn-primary">Dashboard</button></a>
+            <a href="/logout" ><button class="btn btn-primary">Logout</button></a>
+
+        <h2>Add/Edit Posts</h2>
+            <form id="contactForm" name="sentMessage" action="/edit/{{post.sno}}" method="post" novalidate>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls">
+                                <label>Title</label>
+                                <input class="form-control" id="title" type="text" placeholder="title" name="title" required data-validation-required-message="Please enter your name." value="{{post.title}}"/>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls">
+                                <label>tagline</label>
+                                <input class="form-control"  id="tagline" type="text" placeholder="tagline" name="tagline" required data-validation-required-message="tagline" value="{{post.tagline}}"/>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>slug</label>
+                                <input class="form-control" id="slug" type="text" placeholder="slug" name="slug" required data-validation-required-message="slug" value="{{post.slug}}"/>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls">
+                                <label>content</label>
+                                <textarea rows="5" class="form-control" placeholder="Content" name="content" id="content" required data-validation-required-message="content">{{post.content}}</textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls">
+                                <label>image File</label>
+                                <input class="form-control" id="img_file" placeholder="img_file" name="img_file" value="{{post.img_file}}"/>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br />
+                        <div id="success"></div>
+                        <button class="btn btn-primary" id="sendMessageButton" type="submit">Submit</button>
+                    </form>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

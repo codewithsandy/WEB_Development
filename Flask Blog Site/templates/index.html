@@ -1,0 +1,66 @@
+{% extends "layout.html" %}
+{% block body %}
+
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('{{ url_for('static', filename= 'assets/img/home-bg.jpg')}}')">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-10 mx-auto">
+                        <div class="site-heading">
+                            <h1>{{params['blog_name']}}</h1>
+                            <span class="subheading">{{params['blog_tagline']}}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+<!--                     Display message            -->
+<!--{% with messages = get_flashed_messages() %}-->
+<!--{% if messages %}-->
+<!--{% for message in messages %}-->
+<!--<div class="alert alert-warning alert-dismissible fade show" role="alert">-->
+<!--    {{message}}-->
+<!--  <button type="button" class="close" data-dismiss="alert" aria-label="Close">-->
+<!--    <span area-hidden="true">&times;</span></button>-->
+<!--</div>-->
+<!--{% endfor %}-->
+<!--{% endif %}-->
+<!--{% endwith %}-->
+
+
+        <!-- Main Content-->
+        {% for post in posts %}
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="post-preview">
+                        <a href="/post/{{post.slug}}">
+                            <h2 class="post-title">{{post.title}}</h2>
+                            <h3 class="post-subtitle">{{post.tagline}}</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a >Admin</a>
+                            on {{post.date}}
+                        </p>{{post.content[0:180]}}...
+                    </div><hr>
+                </div>
+</div>
+
+{% endfor %}
+
+
+<!-- Pager-->
+    <div class="clearfix">
+
+        <a class="btn btn-primary float-left" href="{{prev}}">&larr;Newer Posts</a>
+
+        <a class="btn btn-primary float-right" href="{{next}}">Older Posts →</a>
+    </div>
+
+</div>
+
+        <hr />
+
+{% endblock %}

@@ -1,0 +1,81 @@
+{% extends "layout.html" %}
+{% block body %}
+
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('{{ url_for('static', filename= 'assets/img/home-bg.jpg')}}')">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-10 mx-auto">
+                        <div class="site-heading">
+                            <h1>{{params['blog_name']}}</h1>
+                            <span class="subheading">Welcome Admin</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+{% with messages = get_flashed_messages() %}
+{% if messages %}
+{% for message in messages %}
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+    {{message}}
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span area-hidden="true">&times;</span></button>
+</div>
+{% endfor %}
+{% endif %}
+{% endwith %}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+
+
+        <h2>Add New Post</h2>
+            <form id="newPostForm" name="sentMessage" action="/newpost" method="post" novalidate>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls">
+                                <label>Title</label>
+                                <input class="form-control" id="title" type="text" placeholder="title" name="title" required data-validation-required-message="Please enter your name." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls">
+                                <label>tagline</label>
+                                <input class="form-control" id="tagline" type="text" placeholder="tagline" name="tagline" required data-validation-required-message="tagline" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>slug</label>
+                                <input class="form-control" id="slug" type="text" placeholder="slug" name="slug" required data-validation-required-message="slug" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls">
+                                <label>image File</label>
+                                <input class="form-control" type="text" id="img_file" placeholder="img_file" name="img_file" > </input>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls">
+                                <label>content</label>
+                                <textarea class="form-control" id="content" rows="5" type="text" placeholder="content" name="content" required data-validation-required-message="content"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+
+                        <br />
+                        <div id="success"></div>
+                        <button class="btn btn-primary" id="sendMessageButton" type="submit">Submit</button>
+                    </form>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

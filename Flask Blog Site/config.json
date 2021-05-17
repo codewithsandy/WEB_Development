@@ -1,0 +1,20 @@
+{
+  "params":
+  {
+    "local_server": "True",
+    "local_uri": "mysql://root:@localhost/flaskblogdbs",
+    "prod_uri": "mysql://root:@localhost/flaskblogdbs",
+    "tw_url": "tweeter.com/flaskwebsite",
+    "fb_url": "facebook.com/flaskwebsite",
+    "gh_url": "https://github.com/codewithsandy",
+    "blog_name": "Flask Blog",
+    "blog_tagline": "The idea is not live forever, but to create something that will....",
+    "gmail_uid": "Enter_Your_Email_@gmail.com",
+    "gmail_pass": "*Enter_Your_Email_Password",
+    "no_of_post": 2,
+    "login_img": "logo.png",
+    "admin_un": "Login_User_Name",
+    "adimn_pass": "Login_User_Password",
+    "upload_location": "D:\\codewithsandy\\Flask Blog\\static\\assets\\img"
+  }
+}
