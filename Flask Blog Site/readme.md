@@ -1,8 +1,8 @@
 # <b>Python Flask-Jinja</b>
 Python | HTML | CSS | JavaScript | Jinja | Mysql | Bootstrap
-<h3>This document helps to understand how web development using python</h3>
+<h3>This blog website helps to understand how to create responsive websites using python</h3>
 =======
-<h3>Complete Blog With Database </h3>
+<h3>This Blog is Ready for Host</h3>
 =======
 
 # My Web Development
@@ -15,7 +15,7 @@ I would gladly accept pointers from others to improve, simplify, or make the cod
 :email: sandeshpol123@gmail.com
 <hr>
 
-## This Blog Contains
+## What learn in this blog website
 - How to use bootstrap template.
 - How to use Flask-jinja syntax
 - Login and Logout working
