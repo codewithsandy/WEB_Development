@@ -36,7 +36,11 @@ I would gladly accept pointers from others to improve, simplify, or make the cod
    - [8](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/08.%20List%20Prime%20Numbers..php) - Here is the Program to list the first 15 prime numbers.
    - [9](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/09.%20Factorial.php) - Factorial of a number in Php 
    - [10](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/10.%20Armstrong_no.php) - Armstrong number Program in PHP
-   - [11]() - Palindrome number Program in PHP
+   - [11](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/11.%20Palindrome.php) - Palindrome number Program in PHP
+   - [12](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/12.%20Size%20of%20a%20File.php) - Write a PHP program to get the size of a file.
+   - [13](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/13.%20Remove%20Duplicates.php) - Write a PHP program to remove duplicates from a sorted list.
+   - [14](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/14.%20Swap%20using%20third%20var.php) - Swap two number using third variable program in PHP
+   - [15](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/15.%20Calculator.php) - Program to simple calculator
  </details>
  
  
