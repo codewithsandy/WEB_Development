@@ -21,6 +21,25 @@ I would gladly accept pointers from others to improve, simplify, or make the cod
 - [Learn CSS](https://github.com/codewithsandy/WEB_Development/tree/master/Basic_CSS) - Chech if you are a learner or beginner in web development. this contains all the basic css styles.
 - [Learn JS](https://github.com/codewithsandy/WEB_Development/tree/master/Basic-JavaScript) - Chech if you are a learner or beginner in web development. this contains all the basic scripts.
 - [Learn Node.JS](https://github.com/codewithsandy/WEB_Development/tree/master/Basic%20Node.JS) - Chech if you are a learner or beginner in web development. and customize the knowledge about node.js
+
+
+- [PHP Programs](https://github.com/codewithsandy/WEB_Development/tree/master/PHP%20programs) - Contains the following programs
+   <details><summary>Programs List </summary>
+   
+   - [1](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/01.%20basic.php) - The php code can be embedded into html code just as an example given below
+   - [2](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/02.%20comments.php) - Multiline comments program
+   - [3](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/03.%20foo%20variable.php) - To specify a boolean literal, use the keywords TRUE or FALSE. Both are case-insensitive.
+   - [4](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/04.%20String.php) - String 
+   - [5](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/05.%20Addition.php) - Add to numbers program in php 
+   - [6](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/06.%20Swaping.php) - Swap two number using third variable program in PHP
+   - [7](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/07.%20Even%20Odd.php) - Even Odd number program in PHP
+   - [8](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/08.%20List%20Prime%20Numbers..php) - Here is the Program to list the first 15 prime numbers.
+   - [9](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/09.%20Factorial.php) - Factorial of a number in Php 
+   - [10](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/10.%20Armstrong_no.php) - Armstrong number Program in PHP
+   - [11]() - Palindrome number Program in PHP
+ </details>
+ 
+ 
 - [CSS Website](https://github.com/codewithsandy/WEB_Development/tree/master/Simple%20CSS%20Design) - How to customize css style sheets in web development.
 - [Single Page Website](https://github.com/codewithsandy/WEB_Development/tree/master/Mini%20Website) - Design Live website and know how to use Mongoose package for store data in Mongo DB system.
 - [Python Flask-Jinja Blog](https://github.com/codewithsandy/WEB_Development/tree/master/Flask%20Blog%20Site) - This blog website helps to understand how to create responsive websites using python
