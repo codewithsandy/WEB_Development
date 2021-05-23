@@ -1,5 +1,5 @@
 # <b>Web Development</b>
-HTML | CSS | JavaScript | NodeJS | MongoDB
+HTML | CSS | JavaScript | NodeJS | PHP | Flask | MongoDB | MySql
 <h3>This document helps to understand web development in detail.And tells you More Information about scripting.</h3>
 =======
 <h3>My Scripting Examples for everyone </h3>
