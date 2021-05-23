@@ -44,6 +44,8 @@ I would gladly accept pointers from others to improve, simplify, or make the cod
    - [16](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/16.%20Sum%20of%20Elements%20in%20Array.php) - Program to find the sum of elements in an array.
    - [17](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/17.%20Split%20String%20using%20Delimiter.php) - Program to split a string into an array elements based on delimiter
    - [18](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/18.%20Product%20of%20elements%20in%20an%20array.php) - Program to find the product of elements in an array
+   - [19](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/19.%20Combine%20the%20Array%20Elements.php) - Program to combine the array elements into a string with given delimiter.
+   - [20](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/20.%20Separate%20Odd%20Even%20Elements.php) - Separate odd and even elements from array without using loop.
    
  </details>
  
