@@ -1,5 +1,5 @@
 # <b>Web Development</b>
-HTML | CSS | JavaScript | NodeJS | MongoDB
+HTML | CSS | JavaScript | NodeJS | PHP | Flask | MongoDB | MySql
 <h3>This document helps to understand web development in detail.And tells you More Information about scripting.</h3>
 =======
 <h3>My Scripting Examples for everyone </h3>
@@ -41,6 +41,15 @@ I would gladly accept pointers from others to improve, simplify, or make the cod
    - [13](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/13.%20Remove%20Duplicates.php) - Write a PHP program to remove duplicates from a sorted list.
    - [14](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/14.%20Swap%20using%20third%20var.php) - Swap two number using third variable program in PHP
    - [15](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/15.%20Calculator.php) - Program to simple calculator
+   - [16](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/16.%20Sum%20of%20Elements%20in%20Array.php) - Program to find the sum of elements in an array.
+   - [17](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/17.%20Split%20String%20using%20Delimiter.php) - Program to split a string into an array elements based on delimiter
+   - [18](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/18.%20Product%20of%20elements%20in%20an%20array.php) - Program to find the product of elements in an array
+   - [19](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/19.%20Combine%20the%20Array%20Elements.php) - Program to combine the array elements into a string with given delimiter.
+   - [20](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/20.%20Separate%20Odd%20Even%20Elements.php) - Separate odd and even elements from array without using loop.
+   - [21](https://github.com/codewithsandy/WEB_Development/tree/master/PHP%20programs/21.%20Create%20Login%20Logout) - Program to create simple Login and Logout example using sessions.
+   - [22](https://github.com/codewithsandy/WEB_Development/tree/master/PHP%20programs/22.%20Upload%20File%20to%20Server) - Program to Upload a file to the Server.
+   - [23](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/23.%20Create%20DB%20PHP%20Mysql.php) - Program to create a New Database using PHP and Mysql.
+   
  </details>
  
  
