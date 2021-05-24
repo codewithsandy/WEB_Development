@@ -55,6 +55,8 @@ I would gladly accept pointers from others to improve, simplify, or make the cod
    - [25](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/25.%20Insert%20Records%20into%20Database.php) - Program to Insert records into the table in Database.
    - [26](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/26.%20Fetch%20Records%20from%20Table.php) - Program to fetch records from the table in Database.
    - [27](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/27.%20Store%20a%20image%20in%20Database.php) - Program to Store a image in Database.
+   - [28](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/28.%20Read%20image%20from%20Database.php) - Program to Read image from Database.
+   - [2](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/02.%20comments.php) - Multiline comments program
    
    
  </details>
