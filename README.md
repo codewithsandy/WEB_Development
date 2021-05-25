@@ -50,6 +50,16 @@ I would gladly accept pointers from others to improve, simplify, or make the cod
    - [22](https://github.com/codewithsandy/WEB_Development/tree/master/PHP%20programs/22.%20Upload%20File%20to%20Server) - Program to Upload a file to the Server.
    - [23](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/23.%20Create%20DB%20PHP%20Mysql.php) - Program to create a New Database using PHP and Mysql.
    
+      👉 Note: When we are using XAMPP or WAMP, servername = localhost, username = root, password is empty.
+   - [24](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/24.%20Connect%20to%20Database.php) - Program to connect to the server and selecting database.
+   - [25](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/25.%20Insert%20Records%20into%20Database.php) - Program to Insert records into the table in Database.
+   - [26](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/26.%20Fetch%20Records%20from%20Table.php) - Program to fetch records from the table in Database.
+   - [27](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/27.%20Store%20a%20image%20in%20Database.php) - Program to Store a image in Database.
+   - [28](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/28.%20Read%20image%20from%20Database.php) - Program to Read image from Database.
+   - [29](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/29.%20Contact%20form.php) - Contact form using Php.
+   - [30](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/30.%20Display%20Colors.php) - Write a PHP script which will display the colors in the following way.
+   
+   
  </details>
  
  
