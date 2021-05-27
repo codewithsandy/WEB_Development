@@ -62,8 +62,8 @@ I would gladly accept pointers from others to improve, simplify, or make the cod
    - [32](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/32.%20Change%20Array%20Value.php) - Write a PHP function to change the following array's all values to upper or lower case.
    - [33](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/33.%20displays%20all%20the%20numbers.php) - Write a PHP script which displays all the numbers between 200 and 250 that are divisible by 4.
    - [34](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/34.%20String%20Length%20from%20an%20Array.php) - Write a PHP script to get the shortest/longest string length from an array.
-   - [31](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/29.%20Contact%20form.php) - Contact form using Php.
-   - [31](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/29.%20Contact%20form.php) - Contact form using Php.
+   - [35](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/35.%20Largest%20key%20in%20an%20Array.php) - Write a PHP script to get the largest key in an array.
+   - [36](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/36.%20Floor%20Decimal%20Numbers%20with%20Precision.php) - Write a PHP function to floor decimal numbers with precision.
    
    
  </details>
