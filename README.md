@@ -64,6 +64,10 @@ I would gladly accept pointers from others to improve, simplify, or make the cod
    - [34](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/34.%20String%20Length%20from%20an%20Array.php) - Write a PHP script to get the shortest/longest string length from an array.
    - [35](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/35.%20Largest%20key%20in%20an%20Array.php) - Write a PHP script to get the largest key in an array.
    - [36](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/36.%20Floor%20Decimal%20Numbers%20with%20Precision.php) - Write a PHP function to floor decimal numbers with precision.
+   - [37](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/37.%20Sort%20Array%20by%20id%20name.php) - Write a PHP script to sort the following array by the day (page_id) and username.
+   - [38](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/38.%20Count%20specific%20value%20array.php) - Write a PHP script to count the total number of times a specific value appears in an array.
+   - [29](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/29.%20Contact%20form.php) - Contact form using Php.
+   - [29](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/29.%20Contact%20form.php) - Contact form using Php.
    
    
  </details>
