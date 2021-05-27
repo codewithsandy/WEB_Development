@@ -70,8 +70,8 @@ I would gladly accept pointers from others to improve, simplify, or make the cod
    - [40](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/40.%20Count%20values%20in%20array.php) - Write a PHP script to count the total number of times a specific value appears in an array.
    - [41](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/41.%20Array_Walk%20Function.php) - Write a PHP script to trim all the elements in an array using array_walk function.
    - [42](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/42.%20Delete%20value%20from%20array.php) - Write a PHP script to delete a specific value from an array using array_filter() function.
-   - [40](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/40.%20Count%20values%20in%20array.php) - Write
-   - [40](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/40.%20Count%20values%20in%20array.php) - Write
+   - [43](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/43.%20Remove%20duplicate%20entry%20from%20Array.php) - Write a PHP a function to remove a specified duplicate entry from an array.
+   - [44](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/44.%20%20Range%20Taken%20from%20String.php) - Write a PHP program to generate an array with a range taken from a string.
    
    
  </details>
