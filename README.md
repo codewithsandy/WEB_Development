@@ -68,6 +68,10 @@ I would gladly accept pointers from others to improve, simplify, or make the cod
    - [38](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/38.%20Count%20specific%20value%20array.php) - Write a PHP script to count the total number of times a specific value appears in an array.
    - [39](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/39.%20Remove%20duplicate%20entry%20from%20array.php) - Write a PHP a function to remove a specified duplicate entry from an array.
    - [40](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/40.%20Count%20values%20in%20array.php) - Write a PHP script to count the total number of times a specific value appears in an array.
+   - [41](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/41.%20Array_Walk%20Function.php) - Write a PHP script to trim all the elements in an array using array_walk function.
+   - [42](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/42.%20Delete%20value%20from%20array.php) - Write a PHP script to delete a specific value from an array using array_filter() function.
+   - [40](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/40.%20Count%20values%20in%20array.php) - Write
+   - [40](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/40.%20Count%20values%20in%20array.php) - Write
    
    
  </details>
