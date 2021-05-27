@@ -58,6 +58,12 @@ I would gladly accept pointers from others to improve, simplify, or make the cod
    - [28](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/28.%20Read%20image%20from%20Database.php) - Program to Read image from Database.
    - [29](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/29.%20Contact%20form.php) - Contact form using Php.
    - [30](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/30.%20Display%20Colors.php) - Write a PHP script which will display the colors in the following way.
+   - [31](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/31.%20Calculate%20Display%20Average.php) - Write a PHP script to calculate and display average temperature, five lowest and highest temperatures.
+   - [32](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/32.%20Change%20Array%20Value.php) - Write a PHP function to change the following array's all values to upper or lower case.
+   - [31](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/29.%20Contact%20form.php) - Contact form using Php.
+   - [31](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/29.%20Contact%20form.php) - Contact form using Php.
+   - [31](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/29.%20Contact%20form.php) - Contact form using Php.
+   - [31](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/29.%20Contact%20form.php) - Contact form using Php.
    
    
  </details>
