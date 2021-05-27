@@ -60,8 +60,8 @@ I would gladly accept pointers from others to improve, simplify, or make the cod
    - [30](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/30.%20Display%20Colors.php) - Write a PHP script which will display the colors in the following way.
    - [31](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/31.%20Calculate%20Display%20Average.php) - Write a PHP script to calculate and display average temperature, five lowest and highest temperatures.
    - [32](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/32.%20Change%20Array%20Value.php) - Write a PHP function to change the following array's all values to upper or lower case.
-   - [31](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/29.%20Contact%20form.php) - Contact form using Php.
-   - [31](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/29.%20Contact%20form.php) - Contact form using Php.
+   - [33](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/33.%20displays%20all%20the%20numbers.php) - Write a PHP script which displays all the numbers between 200 and 250 that are divisible by 4.
+   - [34](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/34.%20String%20Length%20from%20an%20Array.php) - Write a PHP script to get the shortest/longest string length from an array.
    - [31](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/29.%20Contact%20form.php) - Contact form using Php.
    - [31](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/29.%20Contact%20form.php) - Contact form using Php.
    
