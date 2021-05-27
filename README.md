@@ -66,8 +66,8 @@ I would gladly accept pointers from others to improve, simplify, or make the cod
    - [36](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/36.%20Floor%20Decimal%20Numbers%20with%20Precision.php) - Write a PHP function to floor decimal numbers with precision.
    - [37](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/37.%20Sort%20Array%20by%20id%20name.php) - Write a PHP script to sort the following array by the day (page_id) and username.
    - [38](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/38.%20Count%20specific%20value%20array.php) - Write a PHP script to count the total number of times a specific value appears in an array.
-   - [29](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/29.%20Contact%20form.php) - Contact form using Php.
-   - [29](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/29.%20Contact%20form.php) - Contact form using Php.
+   - [39](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/39.%20Remove%20duplicate%20entry%20from%20array.php) - Write a PHP a function to remove a specified duplicate entry from an array.
+   - [40](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/40.%20Count%20values%20in%20array.php) - Write a PHP script to count the total number of times a specific value appears in an array.
    
    
  </details>
