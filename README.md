@@ -58,6 +58,20 @@ I would gladly accept pointers from others to improve, simplify, or make the cod
    - [28](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/28.%20Read%20image%20from%20Database.php) - Program to Read image from Database.
    - [29](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/29.%20Contact%20form.php) - Contact form using Php.
    - [30](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/30.%20Display%20Colors.php) - Write a PHP script which will display the colors in the following way.
+   - [31](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/31.%20Calculate%20Display%20Average.php) - Write a PHP script to calculate and display average temperature, five lowest and highest temperatures.
+   - [32](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/32.%20Change%20Array%20Value.php) - Write a PHP function to change the following array's all values to upper or lower case.
+   - [33](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/33.%20displays%20all%20the%20numbers.php) - Write a PHP script which displays all the numbers between 200 and 250 that are divisible by 4.
+   - [34](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/34.%20String%20Length%20from%20an%20Array.php) - Write a PHP script to get the shortest/longest string length from an array.
+   - [35](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/35.%20Largest%20key%20in%20an%20Array.php) - Write a PHP script to get the largest key in an array.
+   - [36](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/36.%20Floor%20Decimal%20Numbers%20with%20Precision.php) - Write a PHP function to floor decimal numbers with precision.
+   - [37](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/37.%20Sort%20Array%20by%20id%20name.php) - Write a PHP script to sort the following array by the day (page_id) and username.
+   - [38](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/38.%20Count%20specific%20value%20array.php) - Write a PHP script to count the total number of times a specific value appears in an array.
+   - [39](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/39.%20Remove%20duplicate%20entry%20from%20array.php) - Write a PHP a function to remove a specified duplicate entry from an array.
+   - [40](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/40.%20Count%20values%20in%20array.php) - Write a PHP script to count the total number of times a specific value appears in an array.
+   - [41](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/41.%20Array_Walk%20Function.php) - Write a PHP script to trim all the elements in an array using array_walk function.
+   - [42](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/42.%20Delete%20value%20from%20array.php) - Write a PHP script to delete a specific value from an array using array_filter() function.
+   - [43](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/43.%20Remove%20duplicate%20entry%20from%20Array.php) - Write a PHP a function to remove a specified duplicate entry from an array.
+   - [44](https://github.com/codewithsandy/WEB_Development/blob/master/PHP%20programs/44.%20%20Range%20Taken%20from%20String.php) - Write a PHP program to generate an array with a range taken from a string.
    
    
  </details>
